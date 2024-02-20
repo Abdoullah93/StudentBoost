@@ -40,7 +40,7 @@ function pauseTimer() {
 
 function resetTimer() {
   clearInterval(countdown);
-  isPaused = false;
+  isPaused = true;
   time = 25 * 60;
   displayTimeLeft(time);
 }
@@ -48,3 +48,4 @@ function resetTimer() {
 document.getElementById('start').addEventListener('click', startTimer);
 document.getElementById('pause').addEventListener('click', pauseTimer);
 document.getElementById('reset').addEventListener('click', resetTimer);
+document.querySelectorAll('.button').forEach(button => button.innerHTML = '<div><span>' + button.textContent.trim().split('').join('</span><span>') + '</span></div>');
