@@ -204,3 +204,16 @@ body {
 body .button {
   margin: 0 12px;
 }
+
+
+
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 24px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+  }
