@@ -1,6 +1,6 @@
 let countdown;
 let isPaused = true;
-let time = 25 * 60;
+let time = document.getElementById('durée-session').valueAsNumber * 60;
 let n=1;
 const date = new Date();
 const heure = date.getHours() + ":" + date.getMinutes();
@@ -22,9 +22,10 @@ function openFullscreen() {
 
 
 function displayTimeLeft(seconds) {
-    const minutes = Math.floor(seconds / 60);
+    const hours = Math.floor(seconds / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
     const remainderSeconds = seconds % 60;
-    const display = `${minutes}:${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`;
+    const display = `${hours}:${minutes == 0 ? '00' : minutes}:${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`;
     document.title = display;
     document.getElementById('timer').textContent = display;
 }
@@ -39,7 +40,7 @@ function startTimer() {
             if (time === 0) {
             clearInterval(countdown);
             alert('La session Pomodoro est terminée!');
-            time = 25 * 60;
+            time = document.getElementById('durée-session').valueAsNumber * 60;
             displayTimeLeft(time);
             }
         }, 1000);
@@ -54,7 +55,7 @@ function pauseTimer() {
 function resetTimer() {
   clearInterval(countdown);
   isPaused = true;
-  time = 25 * 60;
+  time = document.getElementById('durée-session').valueAsNumber * 60;
   displayTimeLeft(time);
 }
 // Fonction pour mettre à jour l'heure
@@ -81,6 +82,7 @@ function mettreAJourHeure() {
     } else {
       timer.innerHTML = "00:"+('0'+newtimer_value).slice(-2)+":00"; 
     }
+    time = newtimer_value*60;
   }
   
   // Mettre à jour l'heure toutes les secondes
