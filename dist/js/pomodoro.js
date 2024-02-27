@@ -43,12 +43,6 @@ function startTimer() {
             displayTimeLeft(time);
             }
         }, 1000);
-        const smokeElement = document.createElement('div');
-        smokeElement.classList.add('smoke');
-        document.body.appendChild(smokeElement);
-        setTimeout(() => {
-          smokeElement.remove();
-        }, 2000);
     }
 }
 
@@ -73,6 +67,21 @@ function mettreAJourHeure() {
     
     document.getElementById("heure").textContent = tempsTexte;
   }
+
+  function editTimer() {
+    const timer = document.getElementById('timer');
+    const newtimer_value = document.getElementById('durée-session').valueAsNumber;
+    console.log((isNaN(newtimer_value)));
+    const hour = Math.floor(newtimer_value/60);
+    const minutes = newtimer_value%60;
+    if (isNaN(newtimer_value)){
+      timer.innerHTML = "00:00:00";
+    }else if (hour!=0) {
+      timer.innerHTML = ('0'+hour).slice(-2)+":"+('0'+minutes).slice(-2)+":00";
+    } else {
+      timer.innerHTML = "00:"+('0'+newtimer_value).slice(-2)+":00"; 
+    }
+  }
   
   // Mettre à jour l'heure toutes les secondes
   setInterval(mettreAJourHeure, 1000);
@@ -85,4 +94,5 @@ document.getElementById("start").addEventListener("click", function() {
     document.getElementById("date").textContent = dateText;
     openFullscreen();
   });
+  document.getElementById('durée-session').addEventListener("input",editTimer);
   

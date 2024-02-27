@@ -8,20 +8,28 @@
 </head>
 <body>
     <div id="pomodoro-container">
-        <div id="timer">25:00</div>
+        <div id="timer">00:25:00</div>
         <div class="button-container">
-            <button id="start" class="button drive white">Démarrer</button>
+            <button type="submit" id="start" class="button drive white">Démarrer</button>
             <button id="pause" class="button">Pause</button>
             <button id="reset" class="button smoke dark">Reset</button>
         </div>
+        <div class="param-session">
+            <input type="text" placeholder="Nom de la session">
+            <label for="durée-session">Durée de la session</label>
+            <input type="number" id="durée-session" name="durée-session" value=25 min=1 max=3600>
+        </div>
+        <div id="myDiv"></div>
     </div>
+    
     <div id="temps" class="sticky-footer">
         <div id="heure"></div>
         <div id="date"></div>
     </div>
-    
 
-    
+
+    <script src="https://cdn.plot.ly/plotly-2.29.1.min.js"></script>
+    <script src="js/plolty.js"></script>
     <script src="js/pomodoro.js"></script>
 </body>
 </html>
