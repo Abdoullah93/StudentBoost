@@ -25,7 +25,7 @@ function displayTimeLeft(seconds) {
     const hours = Math.floor(seconds / 3600);
     const minutes = Math.floor((seconds % 3600) / 60);
     const remainderSeconds = seconds % 60;
-    const display = `${hours}:${minutes == 0 ? '00' : minutes}:${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`;
+    const display = `${hours < 10 ? '0'+hours : hours}:${minutes == 0 ? '00' : minutes}:${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`;
     document.title = display;
     document.getElementById('timer').textContent = display;
 }
