@@ -1,0 +1,17 @@
+/* Bootstrap css */
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css";
+
+/* Google Material Icons */
+@import "http://fonts.googleapis.com/icon?family=Material+Icons";
+
+/* Propeller CSS */
+@import "dist/css/propeller.min.css";
+
+/* Calendar CSS */
+@import "calendar/css/fullcalendar.min.css";
+
+/* Calendar CSS for Print Media */
+@import "calendar/css/fullcalendar.print.min.css";
+
+/* Propeller Calendar CSS */
+@import "calendar/css/pmd-fullcalendar.css";
