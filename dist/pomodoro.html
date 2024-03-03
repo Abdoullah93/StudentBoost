@@ -20,7 +20,7 @@
             <input type="number" id="durée-session" name="durée-session" value=25 min=1 max=3600>
         </div>
         <div id="container">
-            <input type="button" value="Refresh" onclick="refresh_plot()" id="refresh-button">
+            <input type="button" value="Refresh" onclick="get_data()" id="refresh-button">
             <div id="myDiv"></div>
         </div>
     </div>
@@ -32,9 +32,8 @@
 
 
     <script src="https://cdn.plot.ly/plotly-2.29.1.min.js"></script>
-    <script src="js/plolty.js"></script>
     <script src="js/pomodoro.js"></script>
-    <script src="js/plotly2.js"></script>
+    <script src="js/pomodoro_get_data.js"></script>
     <script src="js/pomodoro_save_data.js"></script>
 </body>
 </html>
