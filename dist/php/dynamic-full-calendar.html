@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Your calendar</title>
@@ -12,6 +12,9 @@
 <!-- bootstrap css and js -->
 <link rel="stylesheet" href="../css/styles.css"/>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
 </head>
 <body>
 <div class="container">
@@ -28,7 +31,7 @@
 			<div class="modal-header">
 				<h5 class="modal-title" id="modalLabel">Add New Event</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">�</span>
+					<span aria-hidden="true">x</span>
 				</button>
 			</div>
 			<div class="modal-body">
@@ -54,6 +57,17 @@
 							  <input type="date" name="event_end_date" id="event_end_date" class="form-control" placeholder="Event end date">
 							</div>
 						</div>
+						<div class="col-sm-6">  
+							<div class="form-group">
+							   <label for="event_color">Event color</label>
+							   <form>
+								<label for="myColor" class="form-label">Color picker</label>
+								<input type="color" class="form-control form-control-color" id="event_color" value="#CCCCCC" title="Choose a color" name="event_color">
+							  </form>
+							</div>
+							
+						 </div>
+						 
 					</div>
 				</div>
 			</div>
@@ -122,6 +136,7 @@ function save_event()
 var event_name=$("#event_name").val();
 var event_start_date=$("#event_start_date").val();
 var event_end_date=$("#event_end_date").val();
+var event_color=$("#event_color").val();
 if(event_name=="" || event_start_date=="" || event_end_date=="")
 {
 alert("Please enter all required details.");
@@ -131,7 +146,7 @@ $.ajax({
  url:"save_event.php",
  type:"POST",
  dataType: 'json',
- data: {event_name:event_name,event_start_date:event_start_date,event_end_date:event_end_date},
+ data: {event_name:event_name,event_start_date:event_start_date,event_end_date:event_end_date,event_color:event_color},
  success:function(response){
    $('#event_entry_modal').modal('hide');  
    if(response.status == true)

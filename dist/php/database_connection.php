@@ -1,8 +1,8 @@
 <?php
-$hostname = "127.0.0.1:3307";
-$username = "root";
+$hostname = "localhost";
+$username = "root2";
 $password = "";  
-$database = "studentboost";   
+$database = "eventcalendar";
 $con=mysqli_connect($hostname,$username,$password,$database);    
 $table = "calendar_event_master";
 ?>

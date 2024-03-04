@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-colorpicker": "^3.4.0",
+    "bootstrapv5-colorpicker": "^0.0.2"
+  }
 }
