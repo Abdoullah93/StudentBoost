@@ -24,7 +24,26 @@
 		</div>
 	</div>
 </div>
-<!-- Start popup dialog box -->
+
+<!-- Start popup dialog box to delete event -->
+<div class="modal fade" id="event_delete_modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-md" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modalLabel">Delete Event</h5>
+				<input type="hidden" id="event_id" name="event_id">
+				<button class="btn btn-danger btn-sm" onclick="delete_event()">Supprimer</button>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">x</span>
+				</button>
+				
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
 <div class="modal fade" id="event_entry_modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-md" role="document">
 		<div class="modal-content">
@@ -102,7 +121,7 @@ $.ajax({
             end: result[i].end,
             color: result[i].color,
             url: result[i].url
-        }); 	
+        });
     })
 	var calendar = $('#calendar').fullCalendar({
 	    defaultView: 'month',
@@ -119,8 +138,10 @@ $.ajax({
 			},
         events: events,
 	    eventRender: function(event, element, view) { 
+			
             element.bind('click', function() {
-					alert(event.event_id);
+				$('#event_id').val(event.event_id);
+				$('#event_delete_modal').modal('show');
 				});
     	}
 		}); //end fullCalendar block	
@@ -165,6 +186,34 @@ $.ajax({
   }
 });    
 return false;
+}
+
+function delete_event() {
+	var event_id = $('#event_id').val();
+	console.log('event_id = ' + event_id);
+    if (confirm("Are you sure you want to delete this event?")) {
+        $.ajax({
+            url: "delete_event.php",
+            type: "POST",
+            dataType: 'json',
+            data: {
+                event_id: event_id
+            },
+            success: function (response) {
+                if (response.status == true) {
+                    alert(response.msg);
+                    location.reload();
+                } else {
+                    alert(response.msg);
+                }
+            },
+            error: function (xhr, status) {
+                console.log('ajax error = ' + xhr.statusText);
+				console.log('event_id = ' + event_id);
+                alert(response.msg);
+            }
+        });
+    }
 }
 </script>
 </html> 
