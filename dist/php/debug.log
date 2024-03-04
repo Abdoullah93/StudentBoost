@@ -254,3 +254,120 @@ FIN DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
 DEBUT DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
 [{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:40:46"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:43:58"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:44:09"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-02 21:51:27"},{"user_id":"test_abdoullah","nom_session":"Alg\u00e8bre","dur\u00e9e_session":"25","date_session":"2024-03-03 14:00:32"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"90","date_session":"2024-03-03 14:25:46"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:13"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:48"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-03 18:44:06"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"50","date_session":"2024-03-03 18:47:28"}]
 FIN DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+DEBUT DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+[{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:40:46"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:43:58"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:44:09"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-02 21:51:27"},{"user_id":"test_abdoullah","nom_session":"Alg\u00e8bre","dur\u00e9e_session":"25","date_session":"2024-03-03 14:00:32"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"90","date_session":"2024-03-03 14:25:46"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:13"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:48"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-03 18:44:06"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"50","date_session":"2024-03-03 18:47:28"}]
+FIN DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+DEBUT DU PROGRAMME D'INSERTION EN BASE
+
+2024-03-04 08:27:25
+Tiramisu
+30
+connecté à la base de données
+J'ai ajouté la session ci dessus dans la BD
+FIN DU PROGRAMME D'INSERTION EN BASE
+DEBUT DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+[{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:40:46"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:43:58"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:44:09"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-02 21:51:27"},{"user_id":"test_abdoullah","nom_session":"Alg\u00e8bre","dur\u00e9e_session":"25","date_session":"2024-03-03 14:00:32"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"90","date_session":"2024-03-03 14:25:46"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:13"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:48"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-03 18:44:06"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"50","date_session":"2024-03-03 18:47:28"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"30","date_session":"2024-03-04 08:27:25"}]
+FIN DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+DEBUT DU PROGRAMME D'INSERTION EN BASE
+
+2024-03-04 08:28:56
+TIramisu
+15
+connecté à la base de données
+J'ai ajouté la session ci dessus dans la BD
+FIN DU PROGRAMME D'INSERTION EN BASE
+DEBUT DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+[{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:40:46"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:43:58"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:44:09"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-02 21:51:27"},{"user_id":"test_abdoullah","nom_session":"Alg\u00e8bre","dur\u00e9e_session":"25","date_session":"2024-03-03 14:00:32"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"90","date_session":"2024-03-03 14:25:46"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:13"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:48"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-03 18:44:06"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"50","date_session":"2024-03-03 18:47:28"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"30","date_session":"2024-03-04 08:27:25"},{"user_id":"test_abdoullah","nom_session":"TIramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:28:56"}]
+FIN DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+DEBUT DU PROGRAMME D'INSERTION EN BASE
+
+2024-03-04 08:29:15
+Tiramisu
+15
+connecté à la base de données
+J'ai ajouté la session ci dessus dans la BD
+FIN DU PROGRAMME D'INSERTION EN BASE
+DEBUT DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+[{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:40:46"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:43:58"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:44:09"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-02 21:51:27"},{"user_id":"test_abdoullah","nom_session":"Alg\u00e8bre","dur\u00e9e_session":"25","date_session":"2024-03-03 14:00:32"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"90","date_session":"2024-03-03 14:25:46"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:13"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:48"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-03 18:44:06"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"50","date_session":"2024-03-03 18:47:28"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"30","date_session":"2024-03-04 08:27:25"},{"user_id":"test_abdoullah","nom_session":"TIramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:28:56"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:29:15"}]
+FIN DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+DEBUT DU PROGRAMME LOGIN.PHP
+abdoullah
+abdoullah@gmail.com
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME LOGIN.PHP
+abdoullah
+abdoullah@gmail.com
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME LOGIN.PHP
+abdoullah
+abdoullah@gmail.com
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME LOGIN.PHP
+abdoullah
+abdoullah@gmail.com
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME LOGIN.PHP
+
+
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+[{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:40:46"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:43:58"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:44:09"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-02 21:51:27"},{"user_id":"test_abdoullah","nom_session":"Alg\u00e8bre","dur\u00e9e_session":"25","date_session":"2024-03-03 14:00:32"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"90","date_session":"2024-03-03 14:25:46"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:13"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:48"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-03 18:44:06"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"50","date_session":"2024-03-03 18:47:28"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"30","date_session":"2024-03-04 08:27:25"},{"user_id":"test_abdoullah","nom_session":"TIramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:28:56"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:29:15"}]
+FIN DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+DEBUT DU PROGRAMME D'INSERTION EN BASE
+
+2024-03-04 10:55:07
+Java
+60
+connecté à la base de données
+J'ai ajouté la session ci dessus dans la BD
+FIN DU PROGRAMME D'INSERTION EN BASE
+DEBUT DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+[{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:40:46"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:43:58"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:44:09"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-02 21:51:27"},{"user_id":"test_abdoullah","nom_session":"Alg\u00e8bre","dur\u00e9e_session":"25","date_session":"2024-03-03 14:00:32"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"90","date_session":"2024-03-03 14:25:46"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:13"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:48"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-03 18:44:06"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"50","date_session":"2024-03-03 18:47:28"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"30","date_session":"2024-03-04 08:27:25"},{"user_id":"test_abdoullah","nom_session":"TIramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:28:56"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:29:15"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"60","date_session":"2024-03-04 10:55:07"}]
+FIN DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+DEBUT DU PROGRAMME LOGIN.PHP
+
+
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME LOGIN.PHP
+
+
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+[{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:40:46"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:43:58"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:44:09"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-02 21:51:27"},{"user_id":"test_abdoullah","nom_session":"Alg\u00e8bre","dur\u00e9e_session":"25","date_session":"2024-03-03 14:00:32"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"90","date_session":"2024-03-03 14:25:46"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:13"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:48"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-03 18:44:06"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"50","date_session":"2024-03-03 18:47:28"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"30","date_session":"2024-03-04 08:27:25"},{"user_id":"test_abdoullah","nom_session":"TIramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:28:56"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:29:15"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"60","date_session":"2024-03-04 10:55:07"}]
+FIN DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+DEBUT DU PROGRAMME D'INSERTION EN BASE
+
+2024-03-04 11:47:04
+Algo Graphes
+60
+connecté à la base de données
+J'ai ajouté la session ci dessus dans la BD
+FIN DU PROGRAMME D'INSERTION EN BASE
+DEBUT DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+[{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:40:46"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:43:58"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:44:09"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-02 21:51:27"},{"user_id":"test_abdoullah","nom_session":"Alg\u00e8bre","dur\u00e9e_session":"25","date_session":"2024-03-03 14:00:32"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"90","date_session":"2024-03-03 14:25:46"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:13"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:48"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-03 18:44:06"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"50","date_session":"2024-03-03 18:47:28"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"30","date_session":"2024-03-04 08:27:25"},{"user_id":"test_abdoullah","nom_session":"TIramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:28:56"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:29:15"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"60","date_session":"2024-03-04 10:55:07"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"60","date_session":"2024-03-04 11:47:04"}]
+FIN DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+DEBUT DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+[{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:40:46"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:43:58"},{"user_id":"test_abdoullah","nom_session":"Algorithmique","dur\u00e9e_session":"25","date_session":"2024-03-02 21:44:09"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-02 21:51:27"},{"user_id":"test_abdoullah","nom_session":"Alg\u00e8bre","dur\u00e9e_session":"25","date_session":"2024-03-03 14:00:32"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"90","date_session":"2024-03-03 14:25:46"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:13"},{"user_id":"test_abdoullah","nom_session":"Dev Web","dur\u00e9e_session":"120","date_session":"2024-03-03 17:01:48"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"25","date_session":"2024-03-03 18:44:06"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"50","date_session":"2024-03-03 18:47:28"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"30","date_session":"2024-03-04 08:27:25"},{"user_id":"test_abdoullah","nom_session":"TIramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:28:56"},{"user_id":"test_abdoullah","nom_session":"Tiramisu","dur\u00e9e_session":"15","date_session":"2024-03-04 08:29:15"},{"user_id":"test_abdoullah","nom_session":"Java","dur\u00e9e_session":"60","date_session":"2024-03-04 10:55:07"},{"user_id":"test_abdoullah","nom_session":"Algo Graphes","dur\u00e9e_session":"60","date_session":"2024-03-04 11:47:04"}]
+FIN DU PROGRAMME DE RECUPERATION DES DONNEES EN BASE
+DEBUT DU PROGRAMME LOGIN.PHP
+ID CORRECT
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME LOGIN.PHP
+ID INCORRECT
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME LOGIN.PHP
+ID CORRECT
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME LOGIN.PHP
+ID CORRECT
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME LOGIN.PHP
+ID CORRECTArray2
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME LOGIN.PHP
+ID CORRECT2 adam@gmail.com adminadmin Adam Mamoun2
+FIN DU PROGRAMME LOGIN.PHP
+DEBUT DU PROGRAMME LOGIN.PHP
+ID CORRECT
+user_id: 2
+FIN DU PROGRAMME LOGIN.PHP
