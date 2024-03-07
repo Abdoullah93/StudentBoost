@@ -18,7 +18,12 @@ function send_data(){
         // requête est 200 (OK), on affiche notre message. Un code 
         // HTTP de 404 indique "Page not found”. 
         if (xhr.readyState == 4 && xhr.status == 200) { 
-            console.log("Information envoyé");
+            console.log(xhr.responseText);
+            if (xhr.responseText === '0') {
+                alert("Vous n'êtes pas connecté la session ne sera pas sauvegardé");
+            }else{
+                console.log("Information envoyé (connecté)");
+            }
         }
     };
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
@@ -27,9 +32,3 @@ function send_data(){
      "&NomSession=" + encodeURIComponent(NomSession));
 }
 
-
-
-/*
-date_session = aaaa-mm-jj hh:mm:ss
-durée_session = minutes
-*/ 

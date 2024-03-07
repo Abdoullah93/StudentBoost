@@ -1,13 +1,18 @@
 <?php
 require 'database_connection_for_pomodoro.php'; 
+session_start();
 // Récupérez les données (envoyé par js/pomodoro_save_data.js) et les stockées en base
 file_put_contents('debug.log', "DEBUT DU PROGRAMME D'INSERTION EN BASE" . PHP_EOL, FILE_APPEND);
-$user_id = "test_abdoullah";
+if (isset($_SESSION['user_id'])) {
+    $user_id = $_SESSION['user_id'];
+}else{
+    echo 0;
+    exit;
+}
 $dateText = $_POST['date_session'];
 $NomSession = $_POST['NomSession'];
 $dureeSession = $_POST['dureeSession'];
-file_put_contents('debug.log', 
-$data . PHP_EOL .
+file_put_contents('debug.log',
 $dateText . PHP_EOL .
 $NomSession . PHP_EOL .
 $dureeSession . PHP_EOL, 

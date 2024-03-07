@@ -45,28 +45,8 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <button class="btn btn-lg btn-primary w-100 fs-6" id="login" onclick="send_data()">Login</button>
+                        <button class="btn btn-lg btn-primary w-100 fs-6" id="login" onclick="send_data_login()">Login</button>
                     </div>
-                    <script>
-                        function send_data(){
-                            let mail = document.getElementById("login-mail").value;
-                            let pass = document.getElementById("login-pass").value;
-                            var xhr = new XMLHttpRequest();
-                            xhr.open('POST','php/login.php',true);
-                            xhr.onreadystatechange = function() { 
-                                // Si l'état de la requête est 4 (terminée, la réponse du 
-                                // serveur est prête) et le code HTTP retourné/reçu par la 
-                                // requête est 200 (OK), on affiche notre message. Un code 
-                                // HTTP de 404 indique "Page not found”. 
-                                if (xhr.readyState == 4 && xhr.status == 200) { 
-                                    console.log("Information envoyé");
-                                }
-                            };
-                            xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-                            xhr.send("mail=" + encodeURIComponent(mail) +
-                            "&pass=" + encodeURIComponent(pass));
-                        }
-                    </script>                    
                     <div class="input-group mb-3">
                         <button class="btn btn-lg btn-light w-100 fs-6"><img src="assets/google.png" style="width:20px" class="me-2"><small>Sign In with Google</small></button>
                     </div>
@@ -77,6 +57,6 @@
            </div> 
           </div>
         </div>
-    
+    <script src="js/login.js"></script>
 </body>
 </html>

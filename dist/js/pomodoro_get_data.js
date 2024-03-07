@@ -1,14 +1,18 @@
 let data_txt;
 /* get data and call refresh plot when data is initialized */
-function get_data(callback){
+function get_data(){
     let xhr = new XMLHttpRequest();
     xhr.open('POST', 'php/pomodoro_get_data.php', true);
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
-    xhr.onload = function (callback) {
+    xhr.onload = function () {
     if (xhr.status === 200) {
         data_txt = this.responseText;
-        refresh_plot2();
+        if (data_txt === '0') {
+            alert("Non connecté");
+        }else{
+            refresh_plot2();
+        }
     } else {
         console.error('Erreur lors de la requête :', xhr.status);
     }
