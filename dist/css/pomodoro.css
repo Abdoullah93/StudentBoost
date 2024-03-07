@@ -1,6 +1,6 @@
 #timer {
   font-size: 40px;
-  color: #fff;
+  color: #420ce3;
 }
 
 .button-container {
@@ -193,12 +193,12 @@ html {
 body {
   min-height: 100vh;
   display: flex;
-  font-family: "Roboto", Arial;
+  font-family: "Helvetica", Arial;
   justify-content: center;
   align-items: center;
-  background: #000000;
+  background: #bba4a4;
   text-align: center;
-  background-image: url('black-bg.jpg');
+  /* background-image: url('black-bg.jpg'); */
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
