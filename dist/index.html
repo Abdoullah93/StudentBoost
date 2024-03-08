@@ -10,26 +10,39 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body onload="get_data()">
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             <div class="border-end bg-white" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light">StudentBoost</div>
+                <div class="sidebar-heading border-bottom bg-light">
+                    
+                    <img src="assets/Sboost.png" class="img-fluid" alt="logo" style="width: 150px; height: 130px; margin-left: 15px;">
+                </div>
+                <div id="sidebar-wrapper">
+                    
                 <div class="list-group list-group-flush">
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="index.html">Dashboard</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="pomodoro2.html">Pomodoro</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../dist/php/dynamic-full-calendar.html" >Calendar</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Profile</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="login.html" onclick="logout()">Se Déconnecter</a>
                 </div>
-            </div>
+                <div >
+                    <a style="position: relative; bottom: 0; left: 15px; right: 15px" href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" id="log-out" onclick="logout()">Se Déconnecter</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                </div>
+                </div>
+                
+                </div>
             <!-- Page content wrapper-->
             <div id="page-content-wrapper">
                 <!-- Top navigation-->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                     <div class="container-fluid">
-                        <button class="btn btn-primary" id="sidebarToggle">Menu</button>
-                        <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" id="log-out" onclick="logout()">Se Déconnecter</a>
+                        <button class="btn" id="sidebarToggle"><i class="fa fa-bars"></i></button>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
@@ -52,6 +65,39 @@
                 <div class="container-fluid">
                     <h1 class="mt-4">Votre gestion du temps</h1>
                     <p>Vous pouvez gérer votre temps en utilisant le Pomodoro et le calendrier.</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            
+                        <h2>Vos prochains évènements</h2>
+                        <div class="list-group">
+                            <a href="../dist/php/dynamic-full-calendar.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Faire les courses</h5>
+                            <small>09/03/2024</small>
+                              </div>
+                              <p class="mb-1">Ne pas oublier les oeufs !</p>
+                            </a>
+                            <a href="../dist/php/dynamic-full-calendar.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">Aller chez Abdoullah</h5>
+                              <small>11/03/2024</small>
+                                </div>
+                                <p class="mb-1">Lui demander de me rendre mes 50 euros</p>
+                              </a>
+                              <a href="../dist/php/dynamic-full-calendar.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">Entrainement avec Hugo</h5>
+                              <small>30/03/2024</small>
+                                </div>
+                                <p class="mb-1">Objectif 20km</p>
+                              </a>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>graphe ici</h2>
+                            
+                    </div>
                 </div>
                 <div class="container-fluid" id="myDiv"></div>
             </div>
