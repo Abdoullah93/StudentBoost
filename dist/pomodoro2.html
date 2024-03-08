@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_login.css">
+    <title>Pomodoro | StudentBoost</title>
+</head>
+<body onload="get_data()">
+    <!----------------------- Main Container -------------------------->
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <!----------------------- Pomodoro Container -------------------------->
+           <div class="row border rounded-5 p-3 bg-white shadow box-area">
+ 
+           <div class="container">
+              <div class="row align-items-center">
+                    <div class="header-text mb-4">
+                         <h2 class="text-center">Pomodoro</h2>
+                         <p class="text-center">Track your working session</p>
+                    </div>
+                    <div class="timer">
+                        <h1 class="text-center" id="timer">25:00</h1>
+                    </div>
+                    <div class="input-session">
+                        <div class="row">
+                            <div class="col">
+                                <div class="text-center">
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text" id="inputGroup-sizing-sm">Durée</span>
+                                        </div>
+                                        <input type="number" class="form-control" aria-label="Durée" aria-describedby="inputGroup-sizing-sm" id="durée-session">
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="text-center">
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text" id="inputGroup-sizing-sm">Nom Session</span>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Nom-Session" aria-describedby="inputGroup-sizing-sm" id="nom-session">
+                                      </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="input-button">
+                            <button type="button" id="start" class="btn btn-success">Start</button>
+                            <button type="button" id="pause" class="btn btn-primary">Pause</button>
+                            <button type="button" id="reset" class="btn btn-secondary">Reset</button>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="myDiv"></div>
+                    </div>
+              </div>
+           </div> 
+          </div>
+        </div>
+    <script src="https://cdn.plot.ly/plotly-2.29.1.min.js"></script>
+    <script src="js/pomodoro.js"></script>
+    <script src="js/pomodoro_get_data.js"></script>
+    <script src="js/pomodoro_save_data.js"></script>
+</body>
+</html>
