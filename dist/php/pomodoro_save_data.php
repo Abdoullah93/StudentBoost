@@ -33,7 +33,6 @@ VALUES('$user_id','$NomSession','$dureeSession','$dateText')";//requete d'insert
 
 
 // Ne pas oublier de renvoyer quelque chose au client !
-// Par exemple, vous pouvez renvoyer un message de confirmation
 file_put_contents('debug.log', "FIN DU PROGRAMME D'INSERTION EN BASE" . PHP_EOL, FILE_APPEND);
 
 ?>
